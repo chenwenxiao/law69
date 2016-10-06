@@ -7014,7 +7014,7 @@ h2.home-section.non-coders:after {
 }
 
 .bottom-cta {
-    background: #258cff;
+    background: url("images/pattern.svg")
     padding: 40px 0;
     text-align: center;
     color: white
