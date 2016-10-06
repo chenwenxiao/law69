@@ -1,0 +1,180 @@
+doctype html
+html.no-js(lang='en')
+  head
+    //
+      Basic Page Needs
+      ==================================================
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='description', content='')
+    meta(name='author', content='')
+    //
+      Mobile Specific
+      ==================================================
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    title 长沙离婚律师网
+    meta(name='csrf-param', content='authenticity_token')
+    meta(name='csrf-token', content='We3eO1ehPCyEU37XDP8dSYYsDgA9aYsGn2PWoLomWi6p3wyAor2RvaAR5Rg8PiQZFWNr5qFBAcbHzTcYdXFVlA==')
+    script.
+      try{Typekit.load({ async: true });}catch(e){}
+    script(src='https://cdn.ravenjs.com/3.6.1/raven.min.js')
+    script.
+      Raven.config('https://f63e4ffcd76c42f38750840930006d86@app.getsentry.com/53642', {
+      whitelistUrls: [/forestry\\.io/]
+      }).install()
+    script(src='http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js')
+    link(rel='stylesheet', media='all', href='/stylesheets/normalize.css')
+    link(rel='stylesheet', media='all', href='/stylesheets/font-awesome.css')
+    link(rel='shortcut icon', type='image/png', href='/images/favicon.jpg')
+  body.promo
+    .hero
+      header.promo-header
+        header.logo-nav
+          .container
+            h1.logo
+              a(href='/') &#x957F;&#x6C99;&#x79BB;&#x5A5A;&#x5F8B;&#x5E08;&#x7F51;
+      .container
+        .row
+          .col-md-7
+            h2 长沙最专业的
+            h3 离婚律师
+            p.tagline 为您解决婚姻烦恼
+            a.button.primary.hero-cta(href='/', style='padding: 5px 40px; height: auto;') 转到简略视图
+          .col-md-5
+            .large-face
+              img(src='/images/body.jpg', alt='law69.cn Support')
+    section.how-it-works-buckets
+      .container
+        .heading
+          h2.home-section.thick-underline 如何联系我们
+        .row
+          .col-sm-4.bucket
+            i.icon-3x.icon-comments-alt
+            h3.bold 社交软件
+            p 扫描下方微信，QQ二维码
+          .col-sm-4.bucket
+            i.icon-3x.icon-mobile-phone
+            h3.bold 拨打电话
+            p 拨打电话13875808193联系
+          .col-sm-4.bucket
+            i.icon-3x.icon-road
+            h3.bold 上门咨询
+            p 请到长沙市芙蓉中路二段1号碧云天大厦23楼AB座
+    section.bottom-cta.video.major-section
+      .container
+        .heading
+          h2.non-coders.thick-underline
+            span.icon-user
+            |  个人简介
+        .row.home-feature
+          .col-md-8.col-md-offset-2
+            .face
+              img(src='/images/head.gif', alt='law69.cn Support')
+            h3 蒋雁飞律师,女,长沙律师,
+            p 湖南闻胜律师事务所专职律师,法学高级讲师,湘潭大学法学学士,已从事律师实务工作22年。
+            ul.readable
+              li 具有深厚的法学理论功底和丰富的律师执业经验
+              li 尤其在婚姻家庭、财产继承等领域具有丰富的办案经验
+              li 能够为当事人提供了有效的法律帮助
+              li 最大限度地维护当事人的合法权益。
+    section.workflow.value-prop.major-section.alternate
+      .container
+        .heading
+          h2.home-section.non-coders.thick-underline
+            span.icon-user
+            |  在社交软件上获得更多帮助
+        .row.home-feature
+          .col-md-4.col-md-offset-1
+            figure.img
+              img(src='/images/screen_1.png', alt='law69.cn Support')
+            h3 微信二维码
+            p 扫码步骤
+            ul.readable
+              li 点击微信下方发现标签
+              li 选择上方扫一扫功能
+              li 讲中心对准屏幕上方二维码
+            p
+              .meta 微信号码为jyf8193
+          .col-md-4.col-md-offset-1
+            figure.img
+              img(src='/images/screen_2.png', alt='Forestry.io CMS Git Support')
+            h3 QQ二维码
+            p 扫码步骤
+            ul.readable
+              li 点击微信下方发现标签
+              li 选择上方扫一扫功能
+              li 讲中心对准屏幕上方二维码
+            p
+              .meta QQ号码为996125871
+              .meta 添加后请您耐心等待验证
+    section.jekyll-plugin.value-prop.major-section
+      .container
+        .row.swap.home-feature
+          .col-md-5.col-md-offset-1.middle.vertical-box.align-left
+            h2 我们如何收费
+            ul.readable
+              li 离婚案件至少收费6000元；
+              li 如果涉及夫妻共同财产按财产的比例收律师费，一千万以下按1%，一千万以上按0.5%
+              li 咨询按小时收费，每小时300元。
+              li 离婚协议起草每份1500元，其他文书书写1500元一份。
+
+          .col-md-6.middle.vertical-box
+            figure.img
+              img(src='/images/money.jpg', alt='law69.cn Support')
+    section.major-section.testimonials
+      .container
+        .row
+          .col-md-12
+            #testimonials.carousel.slide(data-ride='carousel', data-interval='false')
+              .carousel-inner(role='listbox')
+                .item.active
+                  .testimonial
+                    blockquote
+                      i.icon.icon-quote-left
+                      | 您有任何婚姻问题，都可以来找我们。
+                    .face
+                      img(src='/images/subhead.jpg', alt='蒋雁飞律师')
+                    .bio
+                      .name
+                        | 蒋雁飞
+                      .role
+                        | 律师
+                    p
+    section.value-prop.major-section.alternate
+      .container
+        .row.home-feature
+          .col-md-5.col-md-offset-1.middle.vertical-box
+            h2 依据的相关法律法规
+            ul.readable
+              li 1.《中华人民共和国婚姻法》
+              li 2.最高人民法院关于《中华人民共和国婚姻法》的解释（一），（二），（三）
+              li 3.《中华人民共和国民法通则》
+          .col-md-6.middle.vertical-box
+            figure.img
+              img(src='/images/law.jpg', alt='law69 Support')
+    section.value-prop.major-section.features-small
+      .container
+        .row
+          .col-md-4
+            .feature-small
+              .icon-3x.icon-medkit
+              h2 离婚诉讼
+              p 包括国内离婚，涉港澳台离婚，离婚孩子的抚养权纠纷，夫妻财产分割纠纷及过错精神损害赔偿
+          .col-md-4
+            .feature-small
+              .icon-3x.icon-h-sign
+              h2 离婚后的财产和抚养权纠纷
+              p 包括离婚后的房产纠纷，财产分割，孩子的抚养权变更
+          .col-md-4
+            .feature-small
+              .icon-3x.icon-plus-sign-alt
+              h2 其他业务
+              p 包括分家析产纠纷，同居纠纷，离婚谈判，离婚协议起草等业务
+    section.bottom-cta
+      .container
+        .row
+          .col-md-12
+            h2 感谢支持！
+            a.button.primary.hero-cta(href='/', style='padding: 5px 40px; height: auto;') 转到简略视图
+    footer.site-footer
+      p law69.cn
