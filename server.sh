@@ -1,1 +1,1 @@
-nohup npm start -port 80 s 
+-PORT=80 nohup npm start 
